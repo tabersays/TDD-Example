@@ -1,3 +1,7 @@
+# TDD-Example
+This is a slightly modified version of the angular quickstart.
+I have the examples we were working on here as **example.component.ts and example.component.spec.ts**
+I have completed the test we left off at and documented it so you can undestand what is going on. I would be estatic if some of you would like to try your hand and make the test pass by writing out some more functionality in the **example.component.ts**. If you go and give it a try feel free to make a pull request with what you come up with.
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
@@ -152,4 +156,3 @@ Shut it down manually with Ctrl-C.
 
 [travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
 [travis-badge-url]: https://travis-ci.org/angular/quickstart
-# TDD-Example

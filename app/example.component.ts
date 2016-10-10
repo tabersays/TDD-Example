@@ -7,12 +7,16 @@ import { Component } from '@angular/core';
   selector: 'ts-example',
   template:
     `
-      <div>
+      <div *ngIf="!isLoggedIn">
         <div class="login">Log in?</div>
         <div class="signup">Sign up?</div>
+      </div>
+      <div *ngIf="isLoggedIn">
+        <div class="welcome">Welcome!</div>
       </div>
     `
 })
 
 export class ExampleComponent {
+  isLoggedIn: boolean = false;
 }
